@@ -1,0 +1,77 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0 auto !important;
+  padding: 0 1rem !important;
+}
+
+div.content {
+  width: auto !important;
+  margin: 0 0 0 16rem !important;
+}
+
+pre,
+.newpage {
+  font-family: 'Source Code Pro', monospace !important;
+  font-size: 1rem !important;
+  color: rgba(0,0,0,.9) !important;
+  line-height: 1.5 !important;\
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700 !important;
+  font-family: 'Proxima Nova', 'Source Sans Pro', 'sans-serif' !important;
+  line-height: 1.5 !important;
+  display: block !important;
+  margin: 0 !important;
+}
+
+.h1 {
+  font-size: 2rem !important;
+}
+
+.h2 {
+  font-size: 1.5rem !important;
+}
+
+.h3 {
+  font-size: 1.25rem !important;
+}
+
+.h4 {
+  font-size: 1rem !important;
+}
+
+.h5 {
+  font-size: .875rem !important;
+}
+.h6 {
+  font-size: .75rem !important;
+}
+
+.selflink:hover {
+  text-decoration: underline !important;
+  color: red !important;
+}
+
+a {
+  font-weight: bold !important;
+}
+
+.grey, .grey a:link, .grey a:visited {
+  color: rgba(0,0,0,.5) !important;
+}

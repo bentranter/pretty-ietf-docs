@@ -1,0 +1,17 @@
+{
+  "name": "Pretty IETF Docs",
+  "description": "Better typography for the IETF docs.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.ietf.org/*"
+      ],
+      "css": ["ietf.css"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Pretty IETF Docs"
+  },
+  "manifest_version": 2
+}
